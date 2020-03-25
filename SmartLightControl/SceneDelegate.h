@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.h
-//  SmartLightControl
+//  AAAA
 //
-//  Created by 李凯 on 2019/11/20.
-//  Copyright © 2019 李凯. All rights reserved.
+//  Created by 李凯 on 2020/1/11.
+//  Copyright © 2020 李凯. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
