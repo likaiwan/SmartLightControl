@@ -50,6 +50,12 @@
 		A25D95182429AC23005C0F92 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25D95172429AC23005C0F92 /* CoreBluetooth.framework */; };
 		A25D951C2429ACB1005C0F92 /* BluetoothEquipment.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D951B2429ACB1005C0F92 /* BluetoothEquipment.m */; };
 		A25D95252429F088005C0F92 /* LKTransferDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D95242429F088005C0F92 /* LKTransferDataHelper.m */; };
+		A2664B67242C54C800B62CB2 /* LogDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2664B66242C54C800B62CB2 /* LogDataModel.m */; };
+		A2664B6A242CA10100B62CB2 /* BrowserLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2664B69242CA10100B62CB2 /* BrowserLogViewController.m */; };
+		A296B6C2242B002100C33596 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A296B6C1242B002100C33596 /* README.md */; };
+		A296B6C5242B036900C33596 /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A296B6C4242B036900C33596 /* LogTableViewCell.xib */; };
+		A296B6C8242B041800C33596 /* LogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A296B6C7242B041800C33596 /* LogTableViewCell.m */; };
+		A2C8465B242CAFBE000B0446 /* BrowserLogViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C8465A242CAFBE000B0446 /* BrowserLogViewModel.m */; };
 		A2FBCF2523CC4ED000CE5C1C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FBCF2423CC4ED000CE5C1C /* OpenGLES.framework */; };
 		A2FBCF2723CC52D300CE5C1C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FBCF2623CC52D300CE5C1C /* GLKit.framework */; };
 /* End PBXBuildFile section */
@@ -114,6 +120,17 @@
 		A25D951B2429ACB1005C0F92 /* BluetoothEquipment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothEquipment.m; sourceTree = "<group>"; };
 		A25D95232429F088005C0F92 /* LKTransferDataHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTransferDataHelper.h; sourceTree = "<group>"; };
 		A25D95242429F088005C0F92 /* LKTransferDataHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTransferDataHelper.m; sourceTree = "<group>"; };
+		A2664B65242C54C800B62CB2 /* LogDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogDataModel.h; sourceTree = "<group>"; };
+		A2664B66242C54C800B62CB2 /* LogDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogDataModel.m; sourceTree = "<group>"; };
+		A2664B68242CA10100B62CB2 /* BrowserLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserLogViewController.h; sourceTree = "<group>"; };
+		A2664B69242CA10100B62CB2 /* BrowserLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserLogViewController.m; sourceTree = "<group>"; };
+		A2664B6B242CA15400B62CB2 /* BrowserLogViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserLogViewControllerDelegate.h; sourceTree = "<group>"; };
+		A296B6C1242B002100C33596 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A296B6C4242B036900C33596 /* LogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
+		A296B6C6242B041800C33596 /* LogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogTableViewCell.h; sourceTree = "<group>"; };
+		A296B6C7242B041800C33596 /* LogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogTableViewCell.m; sourceTree = "<group>"; };
+		A2C84659242CAFBE000B0446 /* BrowserLogViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowserLogViewModel.h; sourceTree = "<group>"; };
+		A2C8465A242CAFBE000B0446 /* BrowserLogViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowserLogViewModel.m; sourceTree = "<group>"; };
 		A2FBCF2423CC4ED000CE5C1C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A2FBCF2623CC52D300CE5C1C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -137,6 +154,8 @@
 		A25ACB992385330D00A86E0E = {
 			isa = PBXGroup;
 			children = (
+				A296B6C1242B002100C33596 /* README.md */,
+				A296B6C3242B02DC00C33596 /* Log */,
 				A25D95192429AC65005C0F92 /* Bluetooth */,
 				A25ACBC423853BF500A86E0E /* LKVColorPicker */,
 				A25ACBA42385330D00A86E0E /* SmartLightControl */,
@@ -257,6 +276,23 @@
 			path = Bluetooth;
 			sourceTree = "<group>";
 		};
+		A296B6C3242B02DC00C33596 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				A296B6C4242B036900C33596 /* LogTableViewCell.xib */,
+				A296B6C6242B041800C33596 /* LogTableViewCell.h */,
+				A296B6C7242B041800C33596 /* LogTableViewCell.m */,
+				A2664B65242C54C800B62CB2 /* LogDataModel.h */,
+				A2664B66242C54C800B62CB2 /* LogDataModel.m */,
+				A2664B68242CA10100B62CB2 /* BrowserLogViewController.h */,
+				A2664B69242CA10100B62CB2 /* BrowserLogViewController.m */,
+				A2664B6B242CA15400B62CB2 /* BrowserLogViewControllerDelegate.h */,
+				A2C84659242CAFBE000B0446 /* BrowserLogViewModel.h */,
+				A2C8465A242CAFBE000B0446 /* BrowserLogViewModel.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,12 +368,14 @@
 				A25D237323C96F52001CC672 /* home_btn_brightness.png in Resources */,
 				A25D236723C96F52001CC672 /* btn_menu_off.png in Resources */,
 				A25ACBB02385330D00A86E0E /* Main.storyboard in Resources */,
+				A296B6C2242B002100C33596 /* README.md in Resources */,
 				A25D236E23C96F52001CC672 /* more_btn_unbundling.png in Resources */,
 				A25D236123C96F52001CC672 /* home_icon_color-temperature.png in Resources */,
 				A25D235D23C96F52001CC672 /* home_icon_tab.png in Resources */,
 				A25D235F23C96F52001CC672 /* home_icon_color.png in Resources */,
 				A25D236423C96F52001CC672 /* home_bnt_off.png in Resources */,
 				A25D236923C96F52001CC672 /* more_btn_more.png in Resources */,
+				A296B6C5242B036900C33596 /* LogTableViewCell.xib in Resources */,
 				A25D236323C96F52001CC672 /* btn_back_off.png in Resources */,
 				A25D236023C96F52001CC672 /* more_icon_schedules.png in Resources */,
 				A25D236B23C96F52001CC672 /* more_icon_name.png in Resources */,
@@ -357,9 +395,13 @@
 				A258B66F23C86435008B9EF3 /* HexCodes.m in Sources */,
 				A25ACBAD2385330D00A86E0E /* ViewController.m in Sources */,
 				A25ACBC723853C6800A86E0E /* LKVColorPicker.m in Sources */,
+				A296B6C8242B041800C33596 /* LogTableViewCell.m in Sources */,
 				A258B65F23C84F67008B9EF3 /* HueCircleLayer.m in Sources */,
+				A2664B67242C54C800B62CB2 /* LogDataModel.m in Sources */,
 				A258B67223C86A55008B9EF3 /* GosDeviceControl.m in Sources */,
 				A258B66823C85BFA008B9EF3 /* RGBColorPicker.m in Sources */,
+				A2664B6A242CA10100B62CB2 /* BrowserLogViewController.m in Sources */,
+				A2C8465B242CAFBE000B0446 /* BrowserLogViewModel.m in Sources */,
 				A258B66B23C85CB9008B9EF3 /* RGBCircleLayer.m in Sources */,
 				A25D951C2429ACB1005C0F92 /* BluetoothEquipment.m in Sources */,
 				A25D234323C96313001CC672 /* SceneDelegate.m in Sources */,
